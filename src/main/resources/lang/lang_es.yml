@@ -184,7 +184,7 @@ guis:
         - "&fde todo nuestros comandos y opciones"
         - ""
         - "&7Click para abrir"
-    protections:gi
+    protections:
       title: "&8➢ &bProtecciones"
       lore:
         - ""
