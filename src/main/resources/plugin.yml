@@ -1,0 +1,13 @@
+author: [ Nasgar Development, Aitooor ]
+name: VanillaCore
+main: online.nasgar.vanilla.Vanilla
+version: ${project.version}
+api-version: 1.13
+
+loadbefore:
+  - TimedRankup
+depend:
+  - TimedRankup
+  - PlaceholderAPI
+softdepend:
+  - Luckperms

@@ -1,0 +1,16 @@
+id: Vanilla-1
+
+mongodb:
+  address: "localhost"
+  port: 27017
+  database: "Vanilla"
+  authentication:
+    username: "usrcx_local54"
+    password: "ZR9xye5J5R5J9BdLcykq9fGfLkS9dvFVptzmBZRMm2hzb6erTARH9RysXkCpVmvSZtEGh3rf3V3"
+
+redis:
+  address: "localhost"
+  port: 6379
+  password: "e44fuT2mQM2hr437N5DTA99rK8xW8RhRAMmSm9LQ4FcnXx7bf5e8VpwXKquYzBvTpnKjUTthqq3"
+  channel:
+    chat: "vanilla_core_chat"

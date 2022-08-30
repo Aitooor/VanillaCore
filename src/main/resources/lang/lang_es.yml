@@ -1,0 +1,318 @@
+reload: "&aConfiguracion del Survival recargada."
+
+player-not-found: "&cJugador %target_name% no encontrado."
+
+no-permission: "&b&lNASGAR &cEste comando no existe"
+
+chat:
+  format: "%rank%%player_name%&7: &f%message%"
+
+tab:
+  header:
+    - "&b&lNASGAR &8| &fVanilla &71.19"
+    - "&7Servidor &aVanilla &e%online%"
+  footer:
+    - ""
+    - "&7&oJugando en Nasgar &e%online%"
+    - "&b&onasgar.online"
+
+scoreboard:
+  title: "&b&lVANILLA &8| &7&o1.19"
+  lines:
+    - ""
+    - "&fNombre"
+    - "&a%player%"
+    - ""
+    - "&fRango &7| &fRankup"
+    - "&a%rank% &7| &a%rankup%"
+    - ""
+    - "&fDinero"
+    - "&e%money%"
+    - ""
+    - "&fJugando &a%vanilla_online%"
+    - ""
+    - "&bnasgar.online"
+
+feed:
+  max:
+    player: "&cTu comida esta al maximo!"
+    target: "&cLa comida de &e%target_name% &cesta al maximo!"
+  restored:
+    player: "&a¡Tu comida ha sido restablecida!"
+    target:
+      you: "&a¡La comida de &e%target_name% &aha sido restablecida!"
+      other: "&aTu comida ha sido restablecida por &e%staff_name%"
+heal:
+  max:
+    player: "&c¡Tu salud esta al maximo!"
+    target: "&c¡La salud de &e%target_name% &cesta al maximo!"
+  restored:
+    player: "&a¡Tu salud ha sido restablecida!"
+    target:
+      you: "&aLa vida de &e%target_name% &aha sido restablecida!"
+      other: "&aTu vida ha sido restablecida por &e%staff_name%"
+hat:
+  already-have: "&c¡Ya tienes un casco!"
+  no-item: "&c¡No tienes ningun item en la mano!"
+  update: "&a¡Tu casco ha sido actualizado!"
+  target:
+    already-have: "&e%target_name% &fya tiene un casco"
+    you: "&fEl casco de &e%target_name% &fha sido actualizado"
+    other: "&fTu casco ha sido actualizado por &e%staff_name%"
+enderchest:
+  you: "&a¡Has abierto el enderchest!"
+  target:
+    you: "&e%target_name% &fenderchest ha sido abierto!"
+    other: "&fTu enderchest ha sido abierto por &e%staff_name%"
+skull:
+  you: "&aRecibido una copia de tu cabeza"
+  target: "&fHas recibido una copia de la cabeza de &e%target_name%"
+fly:
+  enabled:
+    player: "&aVuelo activado"
+    target:
+      you: "&fVuelo de &e%target_name% &aactivado!"
+      other: "&fVuelo activado por &e%staff_name%"
+  disabled:
+    player: "&fVuelo desactivado"
+    target:
+      you: "&fVuelo de &e%target_name% &cdesactivado!"
+      other: "&fVuelo desactivado por &e%staff_name%"
+top:
+  player: "&aTeletransportado al top"
+  target:
+    you: "&fTeletransportado a &e%target_name% &aal top"
+    other: "&fTeletransportado al top por &e%staff_name%"
+shop:
+  usage: "&cUso: /shop <jugador>"
+  player: "&b&lNASGAR &fhttps://nasgar.online/shop"
+  target:
+    you: "&b&lNASGAR &fEnviado correctamente el link a &e%target%"
+    other: "&b&lNASGAR &fhttps://nasgar.online/shop &7Enviado por &e%staff%"
+discord:
+  usage: "&cUso: /discord <jugador>"
+  player: "&b&lNASGAR &fhttps://ds.nasgar.online"
+  target:
+    you: "&b&lNASGAR &fEnviado correctamente el link a &e%target%"
+    other: "&b&lNASGAR &fhttps://ds.nasgar.online &7Enviado por &e%staff%"
+web:
+  usage: "&cUso: /web <jugador>"
+  player: "&b&lNASGAR &fhttps://nasgar.online"
+  target:
+    you: "&b&lNASGAR &fEnviado correctamente el link a &e%target%"
+    other: "&b&lNASGAR &fhttps://nasgar.online &7Enviado por &e%staff%"
+gamemode:
+  usage: "&cUso: /gamemode <mode>"
+  not-found: "&c¡Gamemode &e%gamemode% &cno encontrado!"
+  update: "&a¡Tu modo de juego ha sido cambiado!"
+god:
+  enabled:
+    player: "&aModo dios activado"
+    target:
+      you: "&cModo dios de &e%target_name% &eenabled!"
+      other: "&cModo dios activado por &e%staff_name%"
+  disabled:
+    player: "&cModo dios desactivado"
+    target:
+      you: "&cModo dios de &e%target_name% &cdesactivado!"
+      other: "&cModo dios desactivado por &e%staff_name%"
+coins:
+  limited-console: "&c¡No tienes un dinero limitado!"
+  have:
+    formated: "&aTienes &e<coins>$"
+    numbered: "&e<coins>$"
+  error:
+    insufficient: "&c¡No tienes suficientes monedas!"
+  purchase: "&aCompró con éxito %display_name% &afor &e%price_coins%$"
+  invalid:
+    number: "&c¡&e%number% &ces un número inválido!"
+  add:
+    usage: "&cUso: /coins add <jugador> <cantidad>"
+    success:
+      sender: "&aAgregado con éxito a &e%target_name% &aa cantidad de &e%amount%$&a!"
+      target: "&e%staff_name% &a ha agregado &e%amount%$ &apara ti!"
+  remove:
+    usage: "&cUso: /coins remove <jugador> <cantidad>"
+    invalid-amount: "&cEl jugador &e%target_name% &cno tiene esa cantidad!"
+    success:
+      sender: "&aEliminado con éxito a &e%target_name% &aa cantidad de &e%amount%$&a!"
+      target: "&e%staff_name% &a ha eliminado &e%amount%$ &apara ti!"
+  set:
+    usage: "&cUso: /coins set <jugador> <cantidad>"
+    success:
+      remitente: "&aConfigurado con éxito en &e%target_name% &aa cantidad de &e%cantidad%$&a!"
+      target: "&e%staff_name% &aha establecido &e%cantidad%$ &apara ti!"
+guis:
+  exit: "&cSalir"
+  back: "&cAtras"
+  main:
+    title: "Menu Principal"
+    profile:
+      title: "&8➢ &bPerfil"
+      lore:
+        - "&r"
+        - "&fAccede a esta opcion para"
+        - "&fmirar tus estadisticas y"
+        - "&fconfiguraciones"
+        - "&r"
+        - "&7Click para abrir"
+    discord:
+      title: "&8➢ &bDiscord"
+      lore:
+        - "&r"
+        - "&fEntra a nuestro server"
+        - "&fde Discord."
+        - "&fY conoce a toda nuesta comunidad."
+        - ""
+        - "&7Click para ver"
+    shop:
+      title: "&8➢ &bShop"
+      lore:
+        - "&r"
+        - "&fVisita nuestra tienda"
+        - "&fy compra un monton"
+        - "&fde cosas nuevas."
+        - ""
+        - "&7Click para ver"
+    wiki:
+      title: "&8➢ &bWiki &7(Ayuda)"
+      lore:
+        - ""
+        - "&a¿Tienes preguntas sobre el server?"
+        - "&r"
+        - "&fEntra a esta opcion e informate"
+        - "&fde todo nuestros comandos y opciones"
+        - ""
+        - "&7Click para abrir"
+    protections:gi
+      title: "&8➢ &bProtecciones"
+      lore:
+        - ""
+        - "&a¿Quieres saber como proteger?"
+        - "&r"
+        - "&fNosotros te lo explicamos"
+        - ""
+        - "&7Click para ver"
+    player-warps:
+      title: "&8➢ &bWarps de Jugadores"
+      lore:
+        - ""
+        - "&a¿Que es esto?"
+        - ""
+        - "&fCualquier jugador puede"
+        - "&fcrear su propio warp."
+        - "&ePara poder ser visitado por toda la comunidad"
+        - ""
+        - "&a¿Como puedo colocar uno?"
+        - "&fPuedes crear tu propio warp"
+        - "&fUsado el comando &b/pwarp set &7(nombre)"
+        - ""
+        - "&7Click para ver"
+    jobs:
+      title: "&8➢ &bTrabajos"
+      lore:
+        - ""
+        - "&fRecolecta dinero"
+        - "&fminando, talando, pescando, ..."
+        - "&ePor absolutamente todo"
+        - ""
+        - "&aSin necesidad de entrar a ningun trabajo"
+        - ""
+        - "&7Click para ver"
+    battlepass:
+      title: "&8➢ &bPase de Batalla"
+      lore:
+        - ""
+        - "&fCompleta los desafios y retos"
+        - "&fy consigue las recompensas"
+        - "&fpuedes comprar el &bpremium &fen la &atienda&f."
+        - "&eO te puede tocar en las cajas"
+        - ""
+        - "&7Click para abrir"
+    auction:
+      title: "&8➢ &bSubastas"
+      lore:
+        - ""
+        - "&a¿Quieres comprar algo?"
+        - ""
+        - "&fEsta es una opcion muy recomendable"
+        - "&fvende, compra y mucho mas de forma segura"
+        - "&eEsta es una tienda comunitaria para todos"
+        - ""
+        - "&7Click para ver"
+    warps:
+      title: "&8➢ &bWarps"
+      lore:
+        - ""
+        - "&a¿Quieres ir a otro Warp?"
+        - ""
+        - "&fAquí puedes hacerlo."
+        - "&eLista de deformaciones"
+        - ""
+        - "&7Haga clic para ver"
+    resources:
+      title: "&8➢ &bRecursos"
+      lore:
+        - ""
+        - "&a¿Necesitas conseguir recursos?"
+        - ""
+        - "&fVen ha este mundo para conseguir recursos,"
+        - "&fhacer tus propias granjas, y mucho más."
+        - "&eAqui podras hacer todo lo que en tu casa no, sin perder nada."
+        - ""
+        - "&7Click para abrir"
+    koths:
+      title: "&8➢ &bKoths"
+      lore:
+        - ""
+        - "&aNecesitas entenderlo?"
+        - ""
+        - "&fInfo al respecto, reglas y más"
+        - "&eAquí se puede entender el sistema."
+        - ""
+        - "&7Haga clic para abrir"
+    web:
+      title: "&8➢ &bPágina Web"
+      lore:
+        - "&r"
+        - "&fVisita nuestra web"
+        - ""
+        - "&7Click para ver"
+  profile:
+    title: "Perfil"
+    settings:
+      title: "&8➢ &bAjustes"
+      lore:
+        - ""
+        - "&fSee general settings"
+        - "&f and adjust them to your liking."
+        - ""
+        - "&fClick to open"
+  wiki:
+    title: "Wiki (Ayuda)"
+    settings:
+      title: "&8➢ &bAjustes"
+      lore:
+        - ""
+        - "&fMira los ajustes generales"
+        - "&fAjustalos&f, &eInfo &fy &aRankUP"
+        - ""
+        - "&fClick para abrir"
+
+  shop: "Tienda de Items"
+auction:
+  help:
+    - "&b&lComandos de subasta"
+    - "&7/auction menu"
+    - "&7/auction pull <precio> <tiempo>"
+  invalid:
+    price: "&cPrecio invalido."
+    duration: "&cDuracion invalida."
+  pull:
+    no-item: "&cNo tienes items en la mano."
+  success: "&aSu artículo se ha agregado con éxito a la venta. En caso de que esté desconectado, el saldo se acreditará, pase lo que pase."
+  gui:
+    no-money: "&cNo tienes dinero"
+    product-name: "&6&lSubasta &7&l#"
+    lore-price: "&fPrecio &e"
+    lore-click: "&aClic para comprar"
